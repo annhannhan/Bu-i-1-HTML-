@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang=" vi">
+<head>
+    <meta charset="utf-8" />
+    <title>Bài tập Form</title>
+</head>
+<body>
+    <h2>Sample Stock Survey</h2>
+
+    <form>
+        <p><b>Describe your investment experience</b></p>
+
+        <input type="radio" name="experience" value="beginner">
+        Beginner
+
+        <input type="radio" name="experience" value="intermediate">
+        Intermediate
+
+        <input type="radio" name="experience" value="expert">Expert
+
+        <p><b>Types of Investments you make</b></p>
+
+        <input type="checkbox" name="investment" value="stocks">
+        Individual Stocks
+
+        <input type="checkbox" name="investment" value="options">
+        Options
+
+        <input type="checkbox" name="investment" value="funds">
+        Mutual Funds
+
+
+        <p>
+            <b>How do you buy your stocks?</b>
+
+            <select name="buy">
+                <option>1) On-Line</option>
+                <option>2) Touch Tone Trading</option>
+                <option>3) Broker Assisted</option>
+                <option>4) Other</option>
+            </select>
+        </p>
+
+
+        <p>
+            <b>What is your hot stock pick?</b>
+
+            <input type="text" name="stock">
+        </p>
+
+
+        <p>
+            <b>Any Investment Advice for others?</b>
+
+            <br>
+
+            <textarea name="advice"
+                      rows="5"
+                      cols="40"></textarea>
+        </p>
+
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
